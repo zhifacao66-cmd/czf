@@ -24,7 +24,7 @@
 
 ## 📁 项目结构
 
-`
+```
 ecommerce-analysis/
 ├── data/                # 数据集（生成脚本 + CSV）
 ├── notebooks/           # Jupyter Notebook 分析文件
@@ -32,18 +32,19 @@ ecommerce-analysis/
 ├── reports/             # 分析报告
 ├── requirements.txt     # Python 依赖
 └── README.md
-`
+```
 
 ## 🚀 快速开始
 
-`ash
+```bash
 # 1. 克隆项目
-git clone https://github.com/你的用户名/ecommerce-analysis.git
-cd ecommerce-analysis
+git clone git@github.com:zhifacao66-cmd/czf.git
+cd czf
 
 # 2. 创建虚拟环境
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+# Windows: venv\Scripts\activate
+source venv/bin/activate
 
 # 3. 安装依赖
 pip install -r requirements.txt
@@ -51,9 +52,12 @@ pip install -r requirements.txt
 # 4. 生成模拟数据
 python data/generate_data.py
 
-# 5. 启动 Jupyter
+# 5. 运行完整分析
+python notebooks/analysis.py
+
+# 6. 启动 Jupyter（可选）
 jupyter notebook notebooks/
-`
+```
 
 ## 📊 分析结果展示
 
