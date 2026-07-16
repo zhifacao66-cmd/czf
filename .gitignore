@@ -1,0 +1,35 @@
+﻿# 数据文件 (体积较大，建议通过脚本生成)
+data/*.csv
+data/*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 图片（保留，如果要重新生成可取消注释）
+# images/*
+!images/.gitkeep
